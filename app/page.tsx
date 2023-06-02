@@ -28,7 +28,7 @@ export default function Home() {
             >
               <h2
                 data-atropos-offset='5'
-                className={`${myFont.variable} text-center font-clasic first-letter:text-7xl bottom-8 mb-3 text-6xl max-lg:text-5xl max-md:text-4xl text-black`}
+                className={`${myFont.variable} text-center font-clasic max-md:first-letter:text-5xl first-letter:text-7xl bottom-8 mb-3 text-6xl max-lg:text-5xl max-md:text-4xl text-black`}
               >
                 {loading ? 'Writing...' : result}
               </h2>
